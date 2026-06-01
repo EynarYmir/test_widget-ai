@@ -24,6 +24,7 @@ $(function() {
     $(document).find('body').append('<link href="https://chat.autofaq.ai/widget/static/css/main.css" rel="stylesheet">')
 
     addCode(HORIZONTAL_MENU_BUTTONS_SELECTOR,
-        '<script data-widget-host="https://chat.autofaq.ai" data-widget-service-id="d9821287-eca1-4a0f-a9cd-f08e8f92e876" data-widget-channel-id="c2c00d17-926f-4984-b4fb-721e8e2589c4" data-widget-user-login="default" data-widget-user-name="" data-widget-user-email="" data-widget-auto-open="{"timer": 1,"once": false}" data-widget-operator-name="true" data-widget-sizes="{"resizeable": true}" data-widget-new-messages="{"badge": true,"favicon": true,"notifications": true}" src="https://chat.autofaq.ai/widget/static/js/main.js" id="autofaqWidget"></script>'
+        '<script data-widget-host="https://chat.autofaq.ai" data-widget-service-id="d9821287-eca1-4a0f-a9cd-f08e8f92e876" data-widget-channel-id="c2c00d17-926f-4984-b4fb-721e8e2589c4" data-widget-user-login="default" data-widget-user-name="" data-widget-user-email="" data-widget-auto-open="{"timer": 1,"once": false}" data-widget-operator-name="true" data-widget-sizes="{"resizeable": true}" data-widget-new-messages="{"badge": true,"favicon": true,"notifications": true}" src="https://chat.autofaq.ai/widget/static/js/main.js" id="autofaqWidget"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>', true
     )
+    
 });
