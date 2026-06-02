@@ -36,7 +36,7 @@ $(function() {
         widgetScript.setAttribute('data-widget-user-login', 'default');
         widgetScript.setAttribute('data-widget-user-name', '');
         widgetScript.setAttribute('data-widget-user-email', '');
-        widgetScript.setAttribute('data-widget-auto-open', '{"timer": 1, "once": false}');
+        widgetScript.setAttribute('data-widget-auto-open', '{"timer": 1, "once": true}');
         widgetScript.setAttribute('data-widget-operator-name', 'true');
         widgetScript.setAttribute('data-widget-sizes', '{"resizeable": true}');
         widgetScript.setAttribute('data-widget-new-messages', '{"badge": true, "favicon": true, "notifications": true}');
